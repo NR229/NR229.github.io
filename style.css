@@ -4,11 +4,11 @@
   font-family: 'Poppins',sans-serif;
   font-weight:light;
 }
-body{
-
+section{
+  background-color: #4c566a;
+  display: grid;
 }
 .full{
-  display: grid;
   height:100vh;
 }
 #landing{
@@ -29,4 +29,8 @@ body{
   font-size:400%;
   font-weight:500;
   font-stretch: condensed;
+}
+.card{
+  margin:8% auto;
+  background-color: #f4f4f4;
 }
