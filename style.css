@@ -1,0 +1,32 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Poppins',sans-serif;
+  font-weight:light;
+}
+body{
+
+}
+.full{
+  display: grid;
+  height:100vh;
+}
+#landing{
+  background-image: url('./images/senior.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.box{
+  display: flex;
+}
+#name{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color:#f4f4f4;
+  font-size:400%;
+  font-weight:500;
+  font-stretch: condensed;
+}
