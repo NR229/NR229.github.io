@@ -1,0 +1,140 @@
+body{
+  margin:0;
+  height:100vh;
+  font-size:20px;
+  font-family: 'Poppins',sans-serif;
+  font-weight:light;
+  background-color: #4c566a;
+  color:#4c566a;
+  overflow-x:hidden;
+}
+h1{
+  font-weight:normal;
+}
+#content h1{
+  color:#f4f4f4;
+  font-size:500%;
+  font-weight:500;
+  font-stretch: condensed;
+}
+section{
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#spacer{
+  height:150px;
+}
+#sect-1{
+  background-image:url('../img/senior.JPG');
+  opacity:.85;
+}
+#sect-2,#sect-4{
+  height:auto;
+}
+#sect-3{
+  background-image:url('../img/code.png');
+}
+container{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display:grid;
+  grid-template-columns: repeat(1,auto);
+  justify-content: center;
+  align-items: middle;
+  place-items: center;
+  height:100%;
+}
+
+#portfolio{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: middle;
+  place-items: center;
+  height:100%;
+}
+#card{
+  width:60vw;
+  padding:20px;
+  min-width: 350px;
+  background-color:#e5e9f0;
+  box-shadow:5px 5px 5px #3a4150;
+  opacity:.95;
+  border-radius:25px;
+}
+#smallCard,#smallCard-1,#smallCard-2{
+  width:40vw;
+  min-width:350px;
+  padding:20px;
+  background-color:#e5e9f0;
+  box-shadow:5px 5px 5px #3a4150;
+  opacity:.95;
+  border-radius:25px;
+}
+#dot{
+  width:20px;
+}
+#logo{
+  width:25px;
+}
+img{
+  width:30vw;
+  max-width: 300px;
+}
+footer{
+  color:black;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  color:#f4f4f4;
+}
+#projlink{
+  font-weight:normal;
+  text-decoration: none;
+  color:grey;
+}
+#creds{
+  float: right;
+  color:#f4f4f4;
+  font-size:15px;
+}
+#mobile{
+  display:none;
+}
+@media only screen and (max-width:600px){
+  #sect-1{
+    display:none;
+  }
+  #sect-3{
+    display:none;
+  }
+  #creds{
+    float: right;
+    color:#f4f4f4;
+    font-size:13px;
+  }
+  #mobile{
+    display:flex;
+    align-items: middle;
+    justify-content: center;
+    place-items: center;
+    color:#f4f4f4;
+    font-size:40px;
+  }
+  #smallCard-1{
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+  }
+  #smallCard-2{
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+  }
+}
