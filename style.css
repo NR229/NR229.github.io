@@ -94,6 +94,9 @@ footer{
     text-align: center;
     flex-wrap: wrap;
   }
+  .card{
+    width: 90vw;
+  }
   #creds{
     font-size: 13px;
     padding-bottom: 10px;
