@@ -95,7 +95,8 @@ footer{
     flex-wrap: wrap;
   }
   .card{
-    width: 80vw;
+    width: 60vw;
+    font-size: 13px;
   }
   #creds{
     font-size: 13px;
