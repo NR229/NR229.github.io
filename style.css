@@ -87,4 +87,7 @@ footer{
   .full{
     display: none;
   }
+  #creds{
+    font-size: 13px;
+  }
 }
