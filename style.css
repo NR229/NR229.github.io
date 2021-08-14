@@ -11,6 +11,15 @@ section{
   flex-wrap: wrap;
   justify-content: center;
 }
+footer{
+  background-color: #4c566a;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  padding-bottom: 0;
+  color: #f4f4f4;
+}
 .full{
   height:100vh;
 }
@@ -30,6 +39,8 @@ section{
   margin: 8%;
   min-width: 350px;
   background-color: #f4f4f4;
+  color: #4c566a;
+  height: fit-content;
 }
 .normal{
   width: 60vw;
@@ -37,11 +48,12 @@ section{
 .small{
   width: 30vw;
 }
-.box{
-  display: flex;
+.logo{
+  width: 35px;
 }
 #landing{
   background-image: url('./images/senior.JPG');
+  align-items: center;
 }
 #divider{
   background-image: url('./images/code.png');
@@ -49,21 +61,21 @@ section{
 #v280{
   background-image: url('./images/V-280.jpg');
 }
+#creds{
+  float: right;
+}
 #name{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   color:#f4f4f4;
   font-size:400%;
   font-weight:500;
   font-stretch: condensed;
 }
-
 .profile{
   max-width: 300px;
 }
 .dot{
   width: 20px;
+  padding: 8px;
 }
 .card h1{
   font-weight: normal;
