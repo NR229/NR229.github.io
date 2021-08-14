@@ -20,6 +20,9 @@ a{
   padding-bottom: 0;
   color: #f4f4f4;
 }
+footer{
+  background-color: #4c566a;
+}
 .full{
   height:100vh;
 }
