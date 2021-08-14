@@ -98,6 +98,9 @@ footer{
     width: 60vw;
     font-size: 13px;
   }
+  .profile{
+    width: 30vw;
+  }
   #creds{
     font-size: 13px;
     padding-bottom: 10px;
