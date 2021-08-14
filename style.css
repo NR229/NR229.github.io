@@ -4,15 +4,15 @@
   font-family: 'Poppins',sans-serif;
   font-weight:light;
 }
-#footer{
-  display: inline;
-}
 section{
   background-color: #4c566a;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+footer{
+  background-color: #4c566a;
 }
 a{
   text-decoration: none;
