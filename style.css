@@ -6,20 +6,48 @@
 }
 section{
   background-color: #4c566a;
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .full{
   height:100vh;
 }
-#landing{
-  background-image: url('./images/senior.JPG');
+.para{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
+.card{
+  padding: 20px;
+  box-shadow: 5px 5px 5px #3a4150;
+  opacity: .95;
+  border-radius: 25px;
+  display: inline;
+  text-align: center;
+  margin: 8%;
+  min-width: 350px;
+  background-color: #f4f4f4;
+}
+.normal{
+  width: 60vw;
+}
+.small{
+  width: 30vw;
+}
 .box{
   display: flex;
+}
+#landing{
+  background-image: url('./images/senior.JPG');
+}
+#divider{
+  background-image: url('./images/code.png');
+}
+#v280{
+  background-image: url('./images/V-280.jpg');
 }
 #name{
   align-items: center;
@@ -30,7 +58,13 @@ section{
   font-weight:500;
   font-stretch: condensed;
 }
-.card{
-  margin:8% auto;
-  background-color: #f4f4f4;
+
+.profile{
+  max-width: 300px;
+}
+.dot{
+  width: 20px;
+}
+.card h1{
+  font-weight: normal;
 }
